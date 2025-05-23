@@ -1536,7 +1536,7 @@ namespace Bloxstrap
 
             fastZip.ExtractZip(package.DownloadPath, packageFolder, fileFilter);
 
-            App.Logger.WriteLine(LOG_IDENT, $"Finished extracting {package.Name}");
+            App.Logger.WriteLine(LOG_IDENT, $"Extracted {package.Name}. Booting up..");
         }
         #endregion
     }
